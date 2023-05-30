@@ -1,0 +1,96 @@
+.navbar{
+    background-color: #1AC073;
+    width: 100%;
+    height:  90px;
+    left: 0px;
+    top: 0px;
+    
+}
+  .navbar .container {
+    height: 20px;
+    /* left: -14.5px; */
+    position: absolute;
+    top: 32px;
+    margin-left: 2rem;
+
+    font-family: 'Squade One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    color: #ffffff;
+    align-items: center;
+  }
+
+   .navbar .nav-menu{
+    display: flex;
+    margin-left: 22rem;
+    
+
+  }
+
+  .navbar .nav-menu li {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-block-start: 1.5rem;
+  }
+  .search{
+    font-size: x-large;
+    position: absolute;
+    left: 80%;
+    top:  33px ;
+    color: #ffffff ;
+
+    /* right: 4.55%;
+    top: 9.09%;
+    bottom: 4.55%;
+   */
+  }
+  .cart{
+    font-size: x-large;
+    position :absolute;
+    left:85%;
+    top: 31px;
+    color: #ffffff;
+  }
+
+
+  .hamburger {
+    display: none;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: 3.5rem;
+    margin-top: -0.5rem;
+
+
+  }
+  .icon{
+    font-size: 2rem;
+    margin: right 5rem; 
+  }
+  
+
+  @media screen and(max-width: 856px){
+    .hamburger {
+      display: block;
+    }
+    .navbar .nav-menu{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 90px;
+
+      height: 100%;
+      width: 100%;
+      background-color: rgba(117, 114, 114);
+      transition: 0.4s  ease-in-out;
+      z-index: 10;
+    }
+
+    .navbar .active {
+     right: 0;
+    }
+  }

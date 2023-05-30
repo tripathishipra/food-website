@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.hero{
+    background-color:#1AC073;
+    color: #ffffff;
+    width: 100%;
+    height: 620px;
+    position: absolute;
+}
+.cookingimage{
+    
+    position: absolute;
+    left: 50%;
+    top:  40px ;    
+}
+.content{
+    display: flex;
+    width: 30.375rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-top:  7rem;
+}
+
+.content h1{
+    /* width: 534px;
+    height: 147px;
+    font-weight: 400;
+    font-size: medium;
+    display: flex;
+    font-family: 'Roboto';
+    display: flex;
+    width: 33.375rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem; */
+    font-size: 4rem;
+    font-family: 'Roboto' ;
+    font-weight: 400;
+   
+}
+
+.paragraph{
+  font-family: 'Roboto'; 
+  font-style: normal; 
+  width: 20rem;
+  font-size: 13px;
+  margin-left: 0.3rem;
+
+}
+/* .searchicons{
+width: 328px;
+height: 500px;
+font-size: 20px;
+border-radius: 10px;
+position: absolute;
+margin-top:2rem;
+border-radius: 5px;
+} */
+ .text{
+    background-color: #ffffff;
+    color:#929292;
+    width:200px ;
+    height: 50px ;
+    border-bottom-left-radius:  10px; 
+    border-top-left-radius: 10px ;
+    border-color:#1AC073 ;
+ }
+ 
+.click{
+    background-color: #f3ba00 ;
+    color: #ffffff;
+    width: 112px;
+    height: 50px;
+    margin-top: 2rem;
+    border-color: #1AC073;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}

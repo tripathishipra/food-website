@@ -1,0 +1,85 @@
+.Modal-background{
+   
+    width:100%;
+    height:4050px;
+    background-color: rgba(0, 0, 0, 0.416);
+    position: absolute;
+    top:0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-container{
+    background-color: white;
+    width:90%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:3rem;
+    border-radius: 10px;
+
+}
+.modal-title h1{
+    margin-top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+
+}
+.modal-name{
+    width:95%;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.modal-name input{
+    width: 80%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 10px;
+    white-space: 0px;
+}
+.modal-html{
+    width: 95%;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.1rem;
+
+}
+.modal-html input{
+    width: 80%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 10px;
+}
+ #cancel-btn{
+    background-color: white;
+    border: 2px solid #1AC073;
+    margin-bottom: 1rem;
+    padding: 10px 50px;
+    border-radius: 5px;
+
+ }
+ #submit-btn{
+    background-color: #1AC073;
+    border: none;
+    color: white;
+    padding:12px 50px;
+    margin: 2.5rem;
+    padding: 10px 50px;
+    border-radius: 5px;
+    
+ }
+
